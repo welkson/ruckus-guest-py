@@ -7,6 +7,7 @@ from BeautifulSoup import BeautifulSoup
 # config
 zd_username = 'your_zd_guest_user'
 zd_password = 'your_zd_guest_password'
+zd_url = 'http://10.0.0.1/user/user_login_guestpass.jsp'
 devices_limit = '2'
 
 # ignore self-signed certificates alerts
@@ -27,7 +28,7 @@ br.set_handle_robots(False)
 br.addheaders = [('User-agent', 'Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.0.1) Gecko/2008071615 Fedora/3.0.1-1.fc9 Firefox/3.0.1')]
 
 # Open some site, let's pick a random one, the first that pops in mind:
-r = br.open('https://10.22.0.31/user/user_login_guestpass.jsp')
+r = br.open(zd_url)
 
 # login form
 br.select_form(nr=0)
