@@ -20,4 +20,4 @@ $ python ruckus.py
     
 # Author
 
-Welkson Medeiros <welkson at gmail at com>
+Welkson Medeiros < welkson at gmail at com >
