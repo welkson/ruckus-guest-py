@@ -1,6 +1,11 @@
 # ruckus-guest-py
 Ruckus Guest Pass Generator
 
+## Requirements
+
+```
+python 2.7
+```
 
 ## Installation
 
