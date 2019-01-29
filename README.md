@@ -5,6 +5,7 @@ Ruckus Guest Pass Generator
 
 ```
 python 2.7
+Mechanize and Beautifulsoap (see requirements.txt)
 ```
 
 ## Installation
