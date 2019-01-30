@@ -23,7 +23,12 @@ Set "zd_username", "zd_password" and "zd_url" in ruckus.py
 ```
 $ python ruckus.py
 ```
-    
+   
+# Comments
+
+About Ruckus Guest Services:
+https://docs.ruckuswireless.com/unleashed/200.1.9.12/t-GeneratingSingleGuestPass.html
+   
 # Author
 
 Welkson Medeiros < welkson at gmail at com >
