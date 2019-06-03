@@ -6,6 +6,7 @@ Ruckus Guest Pass Generator
 ```
 python 2.7
 Mechanize and Beautifulsoup (see requirements.txt)
+Ruckus Zone Director 5000 Series (tested on version 9.13.3.0 build 133)
 ```
 
 ## Installation
