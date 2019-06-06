@@ -1,0 +1,5 @@
+[config]
+zd_username = username
+zd_password = password
+zd_url = https://10.22.0.123
+devices_limit = 2

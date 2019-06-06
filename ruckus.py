@@ -2,13 +2,16 @@
 
 import mechanize
 import ssl
+import configparser
 from BeautifulSoup import BeautifulSoup
 
 # config
-zd_username = 'your_zd_guest_user'
-zd_password = 'your_zd_guest_password'
-zd_url = 'http://10.0.0.1/user/user_login_guestpass.jsp'
-devices_limit = '2'
+config = configparser.ConfigParser()
+config.read("config.cfg")
+zd_username = config['config']['zd_username']
+zd_password = config['config']['zd_password']
+zd_url = config['config']['zd_url'] + '/user/user_login_guestpass.jsp'
+devices_limit = config['config']['devices_limit']
 
 # ignore self-signed certificates alerts
 try:
