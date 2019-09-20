@@ -32,4 +32,4 @@ https://docs.ruckuswireless.com/unleashed/200.1.9.12/t-GeneratingSingleGuestPass
    
 # Author
 
-Welkson Medeiros < welkson at gmail at com >
+Welkson Medeiros < welkson at gmail dot com >
