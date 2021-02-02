@@ -17,7 +17,7 @@ $ pip install -U -r requirements.txt
     
 ## Config
 
-Set "zd_username", "zd_password" and "zd_url" in ruckus.py
+Set "zd_username", "zd_password" and "zd_url" in config.cfg
 
 # Running
 
